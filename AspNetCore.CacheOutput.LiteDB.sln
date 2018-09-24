@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.CacheOutput.LiteDB", "AspNetCore.CacheOutput.LiteDB\AspNetCore.CacheOutput.LiteDB.csproj", "{35B9C14E-3C1D-4FA5-BBA6-F2F8FF8629E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.CacheOutput.LiteDB.Demo", "AspNetCore.CacheOutput.LiteDB.Demo\AspNetCore.CacheOutput.LiteDB.Demo.csproj", "{06874BA9-D1B4-4469-90FC-B51A9C8F7607}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35B9C14E-3C1D-4FA5-BBA6-F2F8FF8629E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B9C14E-3C1D-4FA5-BBA6-F2F8FF8629E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B9C14E-3C1D-4FA5-BBA6-F2F8FF8629E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B9C14E-3C1D-4FA5-BBA6-F2F8FF8629E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06874BA9-D1B4-4469-90FC-B51A9C8F7607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06874BA9-D1B4-4469-90FC-B51A9C8F7607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06874BA9-D1B4-4469-90FC-B51A9C8F7607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06874BA9-D1B4-4469-90FC-B51A9C8F7607}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF5E22C3-39E4-4785-B069-2EAA3D30A073}
+	EndGlobalSection
+EndGlobal

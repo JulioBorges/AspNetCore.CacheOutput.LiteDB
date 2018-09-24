@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provider for caching using ASPNet OutputCache using LiteDatabase. For using with ASP.NET Core port of Strathweb.CacheOutput library developed by Alexander Shabunevich (https://github.com/Iamcerba/AspNetCore.CacheOutput)</Description>
+    <Authors>Julio Cezar Borges</Authors>
+    <Company>Julio Cezar Borges</Company>
+    <Copyright>Julio Cezar Borges 2018</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/JulioBorges/AspNetCore.CacheOutput.LiteDB/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/JulioBorges/AspNetCore.CacheOutput.LiteDB</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JulioBorges/AspNetCore.CacheOutput.LiteDB</RepositoryUrl>
+    <PackageTags>aspnet core netcore cacheoutput LiteDatabase LiteDB</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.CacheOutput" Version="1.0.4" />
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+  </ItemGroup>
+
+</Project>
