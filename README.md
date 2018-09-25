@@ -1,8 +1,7 @@
 # AspNetCore.CacheOutput.LiteDB
 Provider for caching using ASPNet OutputCache using LiteDatabase.
-Use with a ASP.NET Core port of StratWeb.CacheOutput library (https://github.com/Iamcerba/AspNetCore.CacheOutput)
-
-Nuget page: https://www.nuget.org/packages/AspNetCore.CacheOutput.LiteDB/
+Use with a ASP.NET Core port of [StratWeb.CacheOutput library](https://github.com/Iamcerba/AspNetCore.CacheOutput)
+Access our [Nuget page](https://www.nuget.org/packages/AspNetCore.CacheOutput.LiteDB)
 
 ### Initial configuration:
 
