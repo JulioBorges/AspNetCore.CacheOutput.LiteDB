@@ -22,12 +22,6 @@ namespace AspNetCore.CacheOutput.LiteDB.Demo
             // Define provider to generate cache database at default location
             services.AddSingleton<IApiOutputCache, LiteDBOutputCacheProvider>();
 
-            // OR Define The path of cache database
-            //services.AddSingleton<IApiOutputCache, LiteDBOutputCacheProvider>(provider =>
-            //{
-            //    return new LiteDBOutputCacheProvider("newFile.db");
-            //});
-
             services.AddMvc();
         }
 
